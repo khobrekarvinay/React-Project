@@ -1,0 +1,45 @@
+.instagram-scraper {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .instagram-scraper h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .instagram-scraper form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .instagram-scraper input[type="text"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .instagram-scraper button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .instagram-scraper button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
