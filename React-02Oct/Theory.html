@@ -1,0 +1,129 @@
+1. What is React ?
+- React is JavaScript library for building user interfaces. 
+It's main features are it's reusable UI components, Virtual DOM, Declarative programming languages,
+faster development, lesser code, easy to maintain.
+
+2. What are the key features of React ?
+- Components: Reusable UI elements
+- Virtual DOM: Minimizes changes made to real DOM elements
+- One way Data Binding
+- Event Handling
+- Hooks & Redux for state management
+- Router Library for Routing functionality
+
+3. What is JSX ? Why is it used in React? 
+- JavaScriptXML is a syntax extension for JavaScript that allows HTML like code in
+JavaScript files. 
+- It's used because it provides easier syntax  by combining HTML and JavaScript code.
+- This makes development faster. 
+
+4. What is the difference between a functional component and a class component?
+- 
+
+5. What is the virtual DOM and how does React use it ?
+- Virtual DOM is a lightweight version of the real DOM and it is used to improve performance.
+- It minimizes changes made to the real DOM. 
+- Boosts rendering speed 
+
+6. Explain the concept of state in React. 
+- State is an object or variable that stores dynamic data which can change overtime. 
+- Whenever state changes it causes the component to re render. 
+- We have to initialize the state with some value. 
+- And last it's updated using setstate()
+
+7. What is the difference between state and props ?
+-  state is used for user input, form data, status, etc. props is used for passing data 
+from parent to child component. state change triggers componenet re render. props cant change &
+they dont trigger re render
+
+8. What is lifting state in React ?
+- 
+
+9. What are React Hooks ? Name a few commonly used hooks. 
+- Hooks are function that let you use state and lifecycle methods from within
+your functional components. 
+
+- useState: manage state data. 
+- useEffect: Handle side effects like event listeners
+- useReducer: Manage multiple states. 
+- useCallback - Memoize functions to prevent uneeded callbakcs
+
+10. Use of useEffect hooks
+- 
+
+11. Handle component lifecycle events 
+- render() method, contructor()
+
+12. What are pure components in react
+- 
+
+13. What is React's useState hook ? How does it work ?
+- Lets you add state to functional components. 
+- Initializes state with a default value. and then returns 2 things. 
+- state value and stateUpdate function 
+- Suntax - const [state, setState] = useState(initialValue);
+
+14. What is the purpsoe of keys in React ? 
+- uniquely be able to identify components
+
+15. Diff betwn controlled and uncontrolled components.
+- 
+
+16. What is the context API in react ? how does it work ?
+- contrxt API is a state management feature that allows data sharing
+ betw components without usingprop drilling
+
+17. What is prop drilling and how can it be avoided ?
+- process of passing props down from multiple levels. Making code hard to maintain 
+- To avoid prop drilling use React's context api. or other global statement libraires 
+like Redux, etc
+
+18. What are higher order components. 
+- takes a componenet as arguement and returns new component 
+
+19. How to optimize performance in a React application ?
+- Use all Memo related functions that prevent unneeded callbacks and re renders
+- Memo, useMemo, useCallback
+- Avoid deep nesting things to prevent drilling.
+- Use a central state management libraay like Redux, etc.
+
+20. What is React Rouer and how it is implemented ?
+- Used to manage routing i.e opening different webpages in a single application.
+
+21. What is laxy loading and how ti can be use in react.js
+- It is a technique to load components or resources
+ only when needed improving performance.
+
+22. How does a server- size rendering (SSR) work in React ?
+- SSR renders React components on the server sending the rendered HTML to the client
+
+23. Diff between React and React Native ?
+- React is web application framework, runs on web browsers and renders HTML and CSS.
+- Native is mobile application framework, runs on mobile devies and renders native UI components
+
+
+24. What are portals and when would you use them ?
+- 
+
+25. What is the use of useRef hook in React ?
+- creates a changable reference to a variable. This value doesnt change across component re renders.
+
+26. Diff between useCallback and useMemo hooks ?
+- useCallback memoizes functions, prevents function re-creation. useMemo memoizes values, prevents heavy calculations of a specific 
+component affect render times of other components
+
+
+27. Manage form in React
+
+28. error boundaries in React 
+
+
+29 . What is useReducer hook and when would u use it 
+- 
+
+30. what is React strict.mode and how does it help ?
+- development mode that hepls identify issues in ur application. 
+better performance, reduced bugs, easier to maintain. 
+
+
+

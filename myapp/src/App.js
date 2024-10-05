@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import Instagram from './components/Instagram';
+import React from 'react';
+import WeatherApp from '../src/Redux/WeatherApp';
+import { Provider } from 'react-redux';
+import store from '../src/Redux/store'; // Import your store
 
 function App() {
   return (
-    <div>
-    <Instagram/>
-    </div>
-    )
-};
+    <Provider store={store}>
+      <WeatherApp />
+    </Provider>
+  );
+}
 
 export default App;
