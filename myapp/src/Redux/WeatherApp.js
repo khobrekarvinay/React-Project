@@ -1,8 +1,8 @@
 // WeatherApp.js
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchWeather, setCity, toggleTempUnit } from './Weatherslice'; // Import actions
-import './WeatherApp.css'; // Create this CSS file for styling
+import { fetchWeather, setCity, toggleTempUnit } from './Weatherslice'; 
+import './WeatherApp.css'; 
 
 function WeatherApp() {
   const dispatch = useDispatch();
@@ -10,17 +10,16 @@ function WeatherApp() {
     (state) => state.weather
   );
 
-  // Handle city input change
   const handleCityChange = (e) => {
     dispatch(setCity(e.target.value));
   };
 
-  // Handle search button click
+  // search button
   const handleSearch = () => {
-    dispatch(fetchWeather(city)); // Dispatch the async fetchWeather action
+    dispatch(fetchWeather(city)); 
   };
 
-  // Toggle temperature unit between Celsius and Fahrenheit
+  
   const toggleTemperatureUnit = () => {
     dispatch(toggleTempUnit());
   };
